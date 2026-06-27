@@ -1,0 +1,31 @@
+# Core inference
+torch>=2.1.0
+torchvision>=0.16.0
+numpy>=1.26.0
+scipy
+
+# Mesh / point cloud
+trimesh>=4.2.0
+open3d
+mesh2sdf==1.1.0
+scikit-image
+
+# Model deps
+einops==0.7.0
+omegaconf==2.3.0
+transformers>=4.39.0
+huggingface-hub
+accelerate>=0.28.0
+safetensors
+Pillow>=10.0.0
+rembg
+xatlas==0.0.9
+moderngl==5.10.0
+
+# Evaluation / visualization
+matplotlib
+pandas
+scipy
+
+# Optional: flash-attn (speeds up MeshAnythingV2, install separately)
+# pip install flash-attn --no-build-isolation
