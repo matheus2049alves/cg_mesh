@@ -1,5 +1,6 @@
-# Data and results (large binaries)
-data/
+# Generated outputs (not tracked)
+data/meshes/
+data/pointclouds/
 results/
 
 # Python
