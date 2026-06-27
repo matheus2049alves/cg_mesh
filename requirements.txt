@@ -18,7 +18,8 @@ huggingface-hub
 accelerate>=0.28.0
 safetensors
 Pillow>=10.0.0
-rembg
+rembg[cpu]
+onnxruntime
 xatlas==0.0.9
 moderngl==5.10.0
 
